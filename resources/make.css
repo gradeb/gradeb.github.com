@@ -1,0 +1,139 @@
+/* make.css | MIT LICENSE | (copyleft) 2K17 Harsh Rajput */
+
+/* Basic Styles */
+
+body {color: #34495e;font-family: "Lato", sans-serif;font-size: 14px;line-height: 1.231;}
+ul {list-style: circle inside;}
+ol {list-style: decimal inside;}
+ol, ul {padding-left: 0;margin-top: 0;}
+ul ul, ul ol, ol ol, ol ul {margin: 2px 0 2px 4px;font-size: 90%;}
+li {margin-bottom: 2px;}
+th, td {padding: 12px 15px;text-align: left;border-bottom: 1px solid #E1E1E1;}
+th:first-child, td:first-child {padding-left: 0;}
+th:last-child,td:last-child {padding-right: 0;}
+code {padding: 1px 1px;margin: 0 1px;font-size: 90%;white-space: nowrap;background: #F1F1F1;border: 1px solid #E1E1E1;border-radius: 4px;}
+pre > code {display: block;padding: 2px 2rem;white-space: pre;}
+a {color: #16a085;text-decoration: underline;-webkit-transition: 0.25s;-moz-transition: 0.25s;-o-transition: 0.25s;transition: 0.25s;-webkit-backface-visibility: hidden;}
+a:hover {color: #1abc9c;text-decoration: none;}
+p {margin-top: 0;}
+hr {margin-top: 4px;margin-bottom: 4px;border-width: 0;border-top: 1px solid #E1E1E1;}
+h1, h2, h3, h4, h5, h6 {margin-top: 0;margin-bottom: 4px;font-weight: 300; }
+h1 {font-size: 32px;font-weight: 900;}
+h2 {font-size: 26px;font-weight: 700;margin-bottom: 2px;}
+h3 {font-size: 24px;font-weight: 700;margin-bottom: 4px;margin-top: 2px;}
+h4 {font-size: 18px;font-weight: 500;margin-top: 4px;}
+h5 {font-size: 16px;font-weight: 500;text-transform: uppercase;}
+h6 {font-size: 13px;font-weight: 500;text-transform: uppercase;}
+
+/* Padding */
+
+.mk-pta {padding: 6px;}
+.mk-p-small {padding: 4px;}
+.mk-p-medium {padding: 8px;}
+.mk-p-extra {padding: 12px;}
+.mk-p-jumbo {padding: 16px;}
+.mk-p-kraken {padding: 32px;}
+.mk-ptb {padding: 6px 0px 6px 0px;}
+.mk-plr {padding: 0px 6px 0px 6px;}
+
+/* Content Alignment */
+
+.mk-al {text-align: left;}
+.mk-ar {text-align: right;}
+.mk-ac {text-align: center;}
+
+/* Margins */
+
+.mk-ma {margin: 6px;}
+.mk-m-small {margin: 4px;}
+.mk-m-medium {margin: 8px;}
+.mk-m-jumbo {margin: 16px;}
+.mk-m-kraken {margin: 32px;}
+.mk-ml {margin-left: 6px;}
+.mk-mr {margin-right: 6px;}
+.mk-mb {margin-bottom: 6px;}
+.mk-mt {margin-top: 6px;}
+.mk-mz {margin: 0;}
+
+/* Borders */
+
+.mk-ba {border: 1px solid #E1E1E1;}
+.mk-bb {border-bottom: 1px solid #E1E1E1;}
+.mk-bt {border-top: 1px solid #E1E1E1;}
+.mk-bl {border-left: 1px solid #E1E1E1;}
+.mk-br {border-right: 1px solid #E1E1E1;}
+.mk-b-red {border-color: #FF4747;}
+.mk-b-green {border-color: #4DB558;}
+.mk-b-blue {border-color: #6078FF;}
+.mk-b-yellow {border-color: #FFCA60;}
+.mk-b-grey {border-color: #111;}
+.mk-b-fff {border-color: #111;}
+.mk-b-eee {border-color: #eee;}
+.mk-bd {border-style: dashed;}
+.mk-bz {border: 0;}
+
+/* Colors */
+
+.mk-red {background-color: #FF4747;}
+.mk-green {background-color: #4DB558;}
+.mk-blue {background-color: #6078FF;}
+.mk-blue-x {background-color: #2C3E50;}
+.mk-yellow {background-color: #FFCA60;}
+.mk-fff {background-color: #fff;}
+.mk-eee {background-color: #eee;}
+.mk-grey {background-color: #111;color: #fff;}
+.mk-smokish {background-color: #ECF0F1;color: #fff;}
+.mk-silver {background-color: #BDC3C7;color: #fff;}
+.mk-purple {background-color: ##8E44AD;color: #fff;}
+
+/* Typography */
+
+.mk-f-small {font-size: small;}
+.mk-f-bold {font-weight: bold;}
+.mk-f-italic {font-style: italic;}
+.mk-f-large {font-size: large;}
+.mk-f-medium {font-size: 8px;}
+.mk-f-jumbo {font-size: 16px;}
+.mk-f-kraken {font-size: 32px;}
+.mk-f-red {color: #FF4747;}
+.mk-f-green {color: #4DB558;}
+.mk-f-blue {color: #6078FF;}
+.mk-f-yellow {color: #FFCA60;}
+.mk-f-grey {color: #111;}
+.mk-f-fff {color: #FFF;}
+.mk-f-000 {color: #000;}
+
+/* UI */
+
+.mk-card {box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
+.mk-card:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}
+.mk-badge, .mk-label, .mk-tag {height: 10px;margin: 0 auto;overflow: hidden;}
+
+/* MISC */
+
+.mk-fl {float: left;}
+.mk-fr {float: right;}
+.mk-clear:after {clear: both;content: ' ';display: table;}
+.mk-opaque {opacity: 0.5;}
+.mk-hide {display: hidden;}
+.mk-hide-overflow {overflow: hidden;}
+
+/* Animation */
+.mk-spin{animation: mk-spin 2s infinite linear}
+@keyframes mk-spin{0%{transform: rotate(0deg)}100%{transform: rotate(359deg)}}
+.mk-anim-fading{animation: fading 10s infinite}
+@keyframes fading{0%{opacity: 0}50%{opacity: 1}100%{opacity: 0}}
+.mk-anim-opacity{animation: opac 0.8s}
+@keyframes opac{from{opacity: 0} to{opacity: 1}}
+.mk-anim-top{position: relative;animation: animatetop 0.4s}
+@keyframes animatetop{from{top: -300px;opacity: 0} to{top: 0;opacity: 1}}
+.mk-anim-left{position: relative;animation: animateleft 0.4s}
+@keyframes animateleft{from{left: -300px;opacity: 0} to{left: 0;opacity: 1}}
+.mk-anim-right{position: relative;animation: animateright 0.4s}
+@keyframes animateright{from{right: -300px;opacity: 0} to{right: 0;opacity: 1}}
+.mk-anim-bottom{position: relative;animation: animatebottom 0.4s}
+@keyframes animatebottom{from{bottom: -300px;opacity: 0} to{bottom: 0;opacity: 1}}
+.mk-anim-zoom {animation: animatezoom 0.6s}
+@keyframes animatezoom{from{transform: scale(0)} to{transform: scale(1)}}
+.mk-anim-input{transition: width 0.4s ease-in-out}
+.mk-anim-input:focus{width: 100%!important}
